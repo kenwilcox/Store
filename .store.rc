@@ -1,0 +1,15 @@
+# Store resource file to include this in your current
+# shell just add the following line (without #) to your
+# ~/.profile or ~/.bash_rc, etc
+#. ~/.store.rc
+
+# Overwrite some builtin commands
+function cd {
+  dir=`store $*`
+  if [ "$dir" = "" ]
+  then
+    command cd $*
+  else
+    command cd $dir
+  fi
+}
