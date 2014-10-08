@@ -9,8 +9,8 @@ function cd {
   dir=`store $*`
   if [ "$dir" = "" ]
   then
-    command cd $*
+    command cd "$*"
   else
-    command cd $dir
+    command cd "$dir"
   fi
 }
