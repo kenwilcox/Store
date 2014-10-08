@@ -1,7 +1,8 @@
 # Store resource file to include this in your current
 # shell just add the following line (without #) to your
-# ~/.profile or ~/.bash_rc, etc
+# ~/.profile or ~/.bashrc, etc
 #. ~/.store.rc
+# or .~/.config/.store.rc
 
 # Overwrite some builtin commands
 function cd {

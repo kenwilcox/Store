@@ -3,9 +3,8 @@
 # Store - an idea I've had and done several times
 # with python and C#, and now just the plain old shell
 
-#sqlite=/home/wilcoxk/bin/Linux/sqlite3
 sqlite=/usr/bin/sqlite3
-db=~/.store.db
+db=~/.config/.store.db
 DEBUG=false
 
 function Echo {
